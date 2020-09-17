@@ -1,6 +1,3 @@
-# dwm-status-script-manager
-A very simple posix compliant script for adding other shell scripts to the status bar in dwm
-
 Includes some simple shell scripts and an example config. To install, extract to your home directory in a folder called ".scripts". The script should be run on boot, for example by adding "~/.scripts/./run.sh &" to the end of your xinitrc, before the window manager is opened
 
 To add a script to the config (scripts.conf) the format is simply "(scripts name) (how often to update (seconds))".
